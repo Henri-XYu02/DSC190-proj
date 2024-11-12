@@ -103,12 +103,8 @@ def llm_test():
             if ai_play:
                 player, board = simulator.state()
                 board_text = board_to_text(board)
-                move = ask_gpt_for_move(player, board_text)
-                print("GPT-3.5 move:", move)
-                move = move.strip('(').strip(')')
-                r, c = move.split(",")
-                r, c = r.strip(), c.strip()
-                r, c = int(r), int(c)
+                r, c = ask_gpt_for_move(player, board_text)
+                print("GPT-3.5 move:", r, c)
             else:
                 (r,c) = simulator.rand_move()
 

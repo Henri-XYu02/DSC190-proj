@@ -1,8 +1,6 @@
 import openai
 import os
 
-api_key = "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"
-
 import openai
 
 def board_to_text(board):
@@ -22,7 +20,7 @@ def ask_gpt_for_move(player, board_text, prompt_template="Suggest the best next 
     """
     prompt = prompt_template.format(player=player, board_text=board_text)
     client = openai.OpenAI(
-        api_key = api_key
+        api_key = os.environ.get("OPENAI_API_KEY")
     )
     chat_completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
@@ -30,7 +28,12 @@ def ask_gpt_for_move(player, board_text, prompt_template="Suggest the best next 
             {"role": "user", "content": prompt}
         ]
     )
+    
     move = chat_completion.choices[0].message.content.strip()
     # move is in the format "row, col"
-    return move
+    move = move.strip('(').strip(')')
+    r, c = move.split(",")
+    r, c = r.strip(), c.strip()
+    r, c = int(r), int(c)
+    return r, c
 
