@@ -19,14 +19,14 @@ class Node:
 
 # NOTE: deterministic_test() requires BUDGET = 1000
 # You can try higher or lower values to see how the AI's strength changes
-BUDGET = 1000
 
 class AI:
     # NOTE: modifying this block is not recommended because it affects the random number sequences
-    def __init__(self, state):
+    def __init__(self, state, budget=1000):
         self.simulator = Game()
         self.simulator.reset(*state) #using * to unpack the state tuple
         self.root = Node(state, self.simulator.get_actions())
+        self.budget = budget
 
     def mcts_search(self):
 
@@ -36,11 +36,11 @@ class AI:
         action_win_rates = {} #store the table of actions and their ucb values
 
         # TODO: Implement the MCTS Loop
-        while(iters < BUDGET):
+        while(iters < self.budget):
             if ((iters + 1) % 100 == 0):
                 # NOTE: if your terminal driver doesn't support carriage returns you can use: 
                 # print("{}/{}".format(iters + 1, BUDGET))
-                print("\riters/budget: {}/{}".format(iters + 1, BUDGET), end="")
+                print("\riters/budget: {}/{}".format(iters + 1, self.budget), end="")
 
             # TODO: select a node, rollout, and backpropagate
             self.simulator.reset(*self.root.state)

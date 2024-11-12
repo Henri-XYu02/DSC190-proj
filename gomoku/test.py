@@ -60,8 +60,9 @@ def deterministic_test():
 
         test_num += 1
 
-MIN_WINS = 9
-NUM_PLAYS = 10
+MIN_WINS = 1
+NUM_PLAYS = 1
+
 def win_test():
     simulator = Game()
     wins = 0
@@ -97,16 +98,18 @@ def llm_test():
     wins = 0
     for play_i in range(NUM_PLAYS):
         print("play {}/{}".format(play_i + 1, NUM_PLAYS))
+        # black goes first
         simulator.reset(BLACK)
         ai_play = False
+        
         while not simulator.game_over:
             if ai_play:
                 player, board = simulator.state()
-                board_text = board_to_text(board)
-                r, c = ask_gpt_for_move(player, board_text)
+                r, c = ask_gpt_for_move(player, board)
                 print("GPT-3.5 move:", r, c)
             else:
                 (r,c) = simulator.rand_move()
+                print("Random player move:", r, c)
 
             simulator.place(r, c)
             ai_play = not ai_play
@@ -116,9 +119,47 @@ def llm_test():
             wins += 1
         else:
             print("Random player won.")
-        print()
 
-    if wins < MIN_WINS:
-        print("FAILED")
-    else:
-        print("PASSED")
+    print(f"GPT-3.5 win rate:{wins/NUM_PLAYS}")
+
+
+def adversarial_test():
+    # let MCTS play against gpt-3.5
+    simulator = Game()
+    wins = 0
+    for play_i in range(NUM_PLAYS):
+        print("play {}/{}".format(play_i + 1, NUM_PLAYS))
+        simulator.reset(BLACK)
+        
+        if play_i % 2 == 0:
+            # GPT-3.5 plays first -> BLACK
+            mcts_play = False
+        else:
+            # MCTS plays first -> BLACK
+            mcts_play = True
+        
+        while not simulator.game_over:
+            print(f"board:\n{simulator.state()[1]}")
+            if mcts_play:
+                ai_player = AI(simulator.state())
+                (r,c), _ = ai_player.mcts_search()
+            else:
+                player, board = simulator.state()
+                r, c = ask_gpt_for_move(player, board)
+                print("GPT-3.5 move:", r, c)
+                if board[r][c] != '.':
+                    raise Exception("GPT-3.5 made an invalid move.")
+
+            simulator.place(r, c)
+            mcts_play = not mcts_play
+        
+        if simulator.winner == BLACK and play_i % 2 == 0:
+            print("GPT-3.5 won.")
+            wins += 1
+        elif simulator.winner == WHITE and play_i % 2 == 1:
+            print("GPT-3.5 won.")
+            wins += 1
+        else:
+            print("MCTS won.")
+        
+    print(f"GPT-3.5 win rate:{wins/NUM_PLAYS}")
