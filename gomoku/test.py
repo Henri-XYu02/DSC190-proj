@@ -1,7 +1,8 @@
 # NOTE: do not modify this file
 from game import Game, WHITE, BLACK
 from ai import AI
-from llm import ask_gpt_for_move, board_to_text
+from llm import ask_gpt_for_move, board_to_text, ask_qwenvl_for_move
+from draw_board import draw_board
 
 TOL = 0.01
 
@@ -60,8 +61,7 @@ def deterministic_test():
 
         test_num += 1
 
-MIN_WINS = 1
-NUM_PLAYS = 1
+
 
 def win_test():
     simulator = Game()
@@ -93,6 +93,9 @@ def win_test():
         print("PASSED")
 
 
+MIN_WINS = 9
+NUM_PLAYS = 10
+
 def llm_test():
     simulator = Game()
     wins = 0
@@ -103,9 +106,12 @@ def llm_test():
         ai_play = False
         
         while not simulator.game_over:
+            print(f"board:\n{simulator.state()[1]}")
+            with open("test_states", "a") as f:
+                f.write(board_to_text(simulator.state()[1]) + "\n")
             if ai_play:
                 player, board = simulator.state()
-                r, c = ask_gpt_for_move(player, board)
+                r, c = ask_gpt_for_move(player, board, simulator.get_actions())
                 print("GPT-3.5 move:", r, c)
             else:
                 (r,c) = simulator.rand_move()
@@ -116,11 +122,63 @@ def llm_test():
 
         if simulator.winner == WHITE:
             print("AI won.")
+            with open("result.txt", "a") as f:
+                f.write("AI won\n")
+                f.write(board_to_text(simulator.state()[1]) + "\n")
             wins += 1
         else:
             print("Random player won.")
-
+            with open("result.txt", "a") as f:
+                f.write("Random player won\n")
+                f.write(board_to_text(simulator.state()[1]) + "\n")
+            
     print(f"GPT-3.5 win rate:{wins/NUM_PLAYS}")
+    with open("result.txt", "a") as f:
+        f.write(f"GPT-3.5 win rate:{wins/NUM_PLAYS}\n")
+        
+        
+def vl_test():
+    simulator = Game()
+    wins = 0
+    for play_i in range(NUM_PLAYS):
+        print("play {}/{}".format(play_i + 1, NUM_PLAYS))
+        # black goes first
+        simulator.reset(BLACK)
+        ai_play = False
+        
+        while not simulator.game_over:
+            print(f"board:\n{simulator.state()[1]}")
+            with open("test_states_vl", "a") as f:
+                f.write(board_to_text(simulator.state()[1]) + "\n")
+            if ai_play:
+                player, board = simulator.state()
+                draw_board(board)
+                r, c = ask_qwenvl_for_move(player, board, simulator.get_actions())
+                print("QwenVL move:", r, c)
+            else:
+                (r,c) = simulator.rand_move()
+                print("Random player move:", r, c)
+
+            simulator.place(r, c)
+            ai_play = not ai_play
+
+        if simulator.winner == WHITE:
+            print("AI won.")
+            with open("result_vl.txt", "a") as f:
+                f.write("VL won\n")
+                f.write(board_to_text(simulator.state()[1]) + "\n")
+            wins += 1
+        else:
+            print("Random player won.")
+            with open("result_vl.txt", "a") as f:
+                f.write("Random player won\n")
+                f.write(board_to_text(simulator.state()[1]) + "\n")
+            
+    print(f"QwenVL win rate:{wins/NUM_PLAYS}")
+    with open("result_vl.txt", "a") as f:
+        f.write(f"QwenVL win rate:{wins/NUM_PLAYS}\n")
+
+
 
 
 def adversarial_test():

@@ -2,7 +2,7 @@
 from __future__ import absolute_import, division, print_function
 import argparse
 from game import Game, WHITE, BLACK, EMPTY, GRID_COUNT
-from test import deterministic_test, win_test, llm_test
+from test import deterministic_test, win_test, llm_test, vl_test
 from ai import AI
 
 gen_tests = False
@@ -184,6 +184,8 @@ if __name__ == '__main__':
     elif args.test == 3:
         # test llm against random player
         llm_test()
+    elif args.test == 4:
+        vl_test()
     else:
         import pygame
         from pygame.locals import *
