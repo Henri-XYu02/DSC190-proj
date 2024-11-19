@@ -1,0 +1,2841 @@
+(7, 3)
+(2, 7)
+(4, 5)
+(6, 6)
+(5, 5)
+(4, 5)
+(6, 5)
+The best next move is (5, 5) to block the opponent from getting 5 in a row. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . b . . . .
+. . . . b b . . . . .
+. . . . . w w . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(5, 5)
+(5, 2)
+(6, 5)
+(6, 6)
+(6, 4)
+(6, 4)
+(6, 6)
+(5, 5)
+(5, 4)
+(4, 5)
+(4, 8)
+(7, 6)
+(6, 5)
+(5, 2)
+(5, 6)
+The best next move is (5, 6). 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . b . . . . .
+. . . . b b w b . . .
+. . . . w w w b . . .
+. . . . . . b . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(6, 4)
+(8, 2)
+(5, 7)
+(5, 5)
+(8, 6)
+The best next move would be (5, 9) to complete a diagonal row of black pieces:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . b . . . . . .
+. . . . . b . . . . .
+. . . . b b w b . . .
+. . . . w w w . . . .
+. . . . . . b . . . .
+. . . . . . w . . . .
+. . . . . . . . . b .
+(5, 8)
+The best next move is: (5, 6)
+(5, 8)
+(9, 9)
+Since the objective is to get 5 in a row, the best next move would be to play at (7,6) to create a possibility of getting 5 in a row horizontally with the white piece.
+(9, 9)
+(7, 6)
+(5, 8)
+(7, 1)
+(4, 2)
+The best next move is: (5, 8)
+(4, 5)
+(3, 6)
+(3, 4)
+(5, 7)
+(5, 5)
+(5, 4)
+(6, 6)
+(6, 5)
+(6, 4)
+(8, 6)
+(6, 9)
+The best next move would be (5, 7) to create a potential winning line horizontally. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . b b . b . . . .
+. . w . . b . . . . .
+. . . b b b w b w . .
+. . . . w w w . . w .
+. . . b . . b . . . .
+. . . . . . w . . . .
+. . . . . . . . . w .
+. . . . . . . . b . .
+(5, 8)
+(5, 6)
+(5, 5)
+(6, 5)
+(4, 5)
+(4, 2)
+(6, 6)
+(6, 4)
+(7, 6)
+(5, 4)
+(6, 5)
+(5, 3)
+(8, 6)
+(5, 5)
+(7, 2)
+The best next move is: (6, 6)
+(8, 8)
+The best next move is (3, 6). 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . b b . b w . . .
+. . w . . b . . . . .
+. . . b b b w b w . .
+. . . . w w w . . w .
+. . w b . . b . . . .
+. . . . b . w b w . .
+. . . . . . . . . w .
+. . . . . . . . . . .
+(3, 4)
+(5, 4)
+(5, 7)
+(5, 6)
+(7, 6)
+(8, 6)
+(8, 8)
+(5, 5)
+(9, 9)
+(6, 6)
+(8, 7)
+(3, 3)
+(3, 2)
+The best next move would be (5, 6).
+(8, 6)
+(6, 6)
+(8, 7)
+(8, 8)
+(4, 5)
+(5, 5)
+(5, 4)
+(3, 6)
+(8, 4)
+(5, 7)
+(6, 5)
+(5, 8)
+(7, 6)
+(8, 1)
+The best next move is (1, 1) to form a potential winning diagonal row with the white pieces. 
+
+Updated board:
+. . . . . . . . . . .
+. . w . . . . . . . .
+. . . . . . . . . . .
+. . w b b . b . . . .
+. . w . . b . . b . .
+. . . b b b w b w . .
+. . . . w w w . . w .
+. . w b . . b . b . .
+. w . . b . w b w . .
+. . . . . . . . . w .
+. . . . . . . . . . .
+(1, 3)
+(1, 3)
+(1, 3)
+(1, 3)
+(5, 3)
+(6, 5)
+(3, 9)
+The best next move is: (2, 4)
+The best next move would be: (7, 6)
+(7, 8)
+(7, 2)
+(7, 3)
+(3, 6)
+(6, 6)
+(5,6)
+(5, 5)
+(5, 7)
+(5, 8)
+(5, 4)
+(5, 3)
+(5, 2)
+The best next move would be (1, 4) to form a potential winning line with the white stones in the current board.
+Based on the current board state and the list of possible moves, the best next move to make in order to win in Gomoku is (4, 2). 
+
+Updated board after making the move:
+. . . . . . . . . . .
+. . . . w . . . . . .
+. . . . w b . . . . .
+. b w b b . b . . w .
+. . w . . b . . b . .
+. . w b b b w b w . .
+. . . . w w w . . w .
+. . w b . . b . b . .
+. w . . b . w b w . .
+. . . . b . b . b w .
+. . . . . . . . . . .
+(4, 8)
+(9, 6)
+(9, 8)
+(4, 1)
+The best next move is (3, 6) to complete a vertical line of black stones in the middle column. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . w . . . . . .
+. . . . w b b b . . .
+. . w b b . b . . w .
+. w w . . b . . b . .
+. . w b b b w b w . .
+. . . . w w w . . w .
+. . w b . . b . b . .
+. w . . b . w b w . .
+. . . . b . b . b w .
+. . . . . . . . . . .
+(4, 8)
+(6, 4)
+(6, 6)
+(8, 6)
+(5, 4)
+(5, 5)
+(9, 6)
+(2, 4)
+(4, 5)
+(3, 9)
+(2, 7)
+(5, 8)
+(4, 2)
+(8, 4)
+(3, 6)
+(6, 6)
+(1, 4)
+(7, 6)
+(7, 3)
+(8, 6)
+(4, 1)
+(4, 6)
+Selecting the best next move would involve predicting the opponent's potential winning moves and blocking them while also setting up your own potential winning moves. 
+
+The best next move in this case would be to play at position (4, 8) to block the opponent's potential winning move in the diagonal direction from (3, 7) to (7, 3). 
+
+Updated board:
+. . . . . . . . . . .
+. . . . w . . . . . .
+. . . . w b . b . . .
+. . w b b . b . . w .
+. w w . . b w . b b .
+. . w b b b w b w . .
+. . . . w w w . . w .
+. . w b . . b . b . .
+. w . . b . w b w . .
+. . . . b . b . b w .
+. . . . . . . . . . .
+(5, 4)
+(0, 4)
+The best next move is: (4, 6)
+(5, 6)
+(4, 5)
+(5, 5)
+(3, 6)
+(4, 9)
+(4, 8)
+(9, 6)
+(8, 6)
+(9, 4)
+(8, 9)
+(5, 11)
+(6, 5)
+(3, 6)
+(9, 4)
+(4, 9)
+(8, 4)
+(2, 1)
+The best next move is: (7, 9)
+(5, 5)
+(1, 4)
+(10, 6)
+(9, 6)
+(7, 6)
+(5, 4)
+(3, 6)
+(0, 4)
+(7, 8)
+(8, 9)
+(0, 5)
+The best next move is: (5, 5)
+(5, 4)
+(4, 5)
+(6, 5)
+(6, 4)
+(8, 4)
+(6, 6)
+(9, 8)
+(9, 4)
+(9, 6)
+(8, 6)
+(8, 8)
+(8, 7)
+(4, 8)
+(8, 9)
+The best next move is: (9, 9)
+(7, 8)
+(3, 6)
+(9, 5)
+(5, 5)
+(8,5)
+The best next move is: (4, 6)
+(0, 4)
+(1, 4)
+(0, 3)
+The best next move is: (5, 5)
+(5, 3)
+(0, 2)
+(5, 6)
+(8, 6)
+(5, 8)
+(10, 8)
+(8, 4)
+(4, 9)
+(10, 4)
+(9, 8)
+(4, 8)
+(3, 6)
+(2, 5)
+(4, 5)
+(5, 7)
+(0, 2)
+(6, 6)
+(9, 9)
+(7, 2)
+(0, 5)
+(4, 6)
+(5, 2)
+The best next move is: (6, 9)
+(0, 3)
+(10, 6)
+(9, 6)
+The best next move is: (6, 5)
+(5, 5)
+(3, 9)
+The best next move is: (5, 3)
+(7, 3)
+(4, 2)
+(5, 4)
+(4, 1)
+(3, 4)
+(7, 8)
+(2, 7)
+The recommended move is: (0, 4)
+(9, 5)
+(7, 6)
+(0, 11)
+(8, 7)
+(0, 11)
+(4, 11)
+(7, 9)
+(6, 4)
+The best next move is: (8, 8)
+(9, 4)
+(8, 9)
+(3, 3)
+The best next move is: (10, 11)
+(9, 10)
+The best next move is: (3, 6)
+(2, 4)
+(5, 4)
+(0, 6)
+The best next move is (5, 6) to potentially block the opponent's winning move. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . b w w . . .
+. . . . . b . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(5, 5)
+(5, 7)
+(6, 4)
+(5, 6)
+(4, 6)
+(3, 4)
+The best next move is: (5, 5) 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . w . . . . . .
+. . . . . . w . . . .
+. . . . . b b w . . .
+. . . . . b b . . . .
+. . . . . . . b . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(5, 6)
+(4, 6)
+(8, 8)
+Based on the current board, the best next move would be (5, 5) to form a potential diagonal row of white stones. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . w . . . . . .
+. . . . . . w . . . .
+. . . . w b w w . . .
+. . . . b b b . . . .
+. . . . . . . b . . .
+. . . . . . . . w . .
+. . . . . . b . . . .
+. . . . . . . . . . .
+(5, 2)
+(3, 5)
+The best next move would be (7, 7) to create a potential winning diagonal of white stones: 
+
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . w w . . . . .
+. . . . . . w . . . .
+. . . . . b w w . . .
+. . . . b b b w . . .
+. . . . . . . b . . .
+. . . . . . . . w . .
+. . . . . . b . . b .
+. . . . . . . . . . .
+(6, 9)
+The best next move is: (5, 6)
+(8, 8)
+(4, 6)
+(4, 5)
+The best next move is: (7, 9)
+(8, 8)
+(5, 6)
+(6, 4)
+(5, 7)
+(5, 5)
+(3, 4)
+(6, 5)
+(5, 4)
+The best next move is (7, 7) to block the opponent from getting 5 in a row vertically.
+(8, 8)
+(8, 2)
+(7, 7)
+(7, 2)
+(7, 6)
+The best next move would be (5, 7) to create a potential winning line horizontally. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . w w . . . b .
+. . . . . w w . . . .
+. . . . w b w w . . .
+. . . . b b b . . w .
+. . . . . . w b . b .
+. . . . . . . . w . .
+. . . . . . b . . b .
+. . . . b . . b . . .
+(3, 9)
+(5, 6)
+(5, 5)
+(5, 4)
+(5, 3)
+The best next move is (4, 6) to create a vertical row of white stones and potentially block the opponent from forming a row of black stones.
+(3, 9)
+(2, 8)
+The best next move would be (7, 6) to create a potential winning line in the horizontal direction.
+(3, 5)
+(3, 9)
+(4, 5)
+(5, 5)
+(5, 6)
+(6, 5)
+(7, 7)
+(7, 0)
+(7, 1)
+(6, 7)
+The best next move would be (7, 6) to create 5 in a row horizontally with the black pieces in the 7th row.
+(6, 7)
+(8, 8)
+(7, 7)
+(7, 9)
+(5, 7)
+(1, 1)
+(6, 4)
+(7, 6)
+(5, 6)
+(5, 5)
+(5, 4)
+(5, 3)
+(7, 5)
+(5, 6)
+(5, 5)
+(5, 4)
+(2, 2)
+(6, 9)
+(9, 6)
+(5, 3)
+(5, 7)
+(10, 4)
+(7, 5)
+(5, 2)
+The best next move would be (7, 6) to create a potential win condition by forming a line of 5 white stones vertically.
+(5, 6)
+(6, 5)
+(5, 4)
+(4, 5)
+(8, 8)
+(7, 5)
+(5, 5)
+(2, 8)
+(1, 1)
+The best next move is: (3, 4)
+(3, 9)
+(8, 8)
+(10, 7)
+(5, 5)
+(3, 5)
+(9, 9)
+(2, 6)
+The best next move is: (4, 5)
+(6, 5)
+(5, 5)
+(6, 6)
+(6, 4)
+(6, 7)
+(5, 6)
+(7, 5)
+(4, 6)
+(5, 7)
+(5, 4)
+(4, 5)
+(5, 3)
+(5, 2)
+(2, 2)
+(0, 1)
+The best next move is: (6, 9)
+(5, 5)
+(6, 5)
+(5, 7)
+(6, 6)
+(5, 6)
+(7, 6)
+(2, 6)
+(2, 8)
+(4, 2)
+(4, 5)
+(4, 6)
+(9, 6)
+(5, 4)
+(5, 2)
+(5, 3)
+(4, 7)
+The best next move is: (4, 7)
+(7, 5)
+(10, 7)
+(5, 7)
+(5, 5)
+(7, 2)
+(3, 9)
+(4, 6)
+(9, 6)
+(8, 8)
+(3, 4)
+(9, 9)
+The best next move would be: (7, 7)
+(5, 6)
+(5, 4)
+(8, 4)
+The best next move would be (5, 6) to form 5 in a row horizontally with the black pieces.
+(10, 6)
+The best next move is (7, 6) to form a row of 5 'b' pieces horizontally.
+(5, 6)
+(5, 7)
+(4, 5)
+(2, 6)
+(8, 8)
+(2, 8)
+(1, 3)
+(5, 7)
+(9, 6)
+(6, 7)
+(5, 5)
+(4, 2)
+(5, 3)
+(5, 4)
+(7, 5)
+(4, 6)
+(5, 2)
+(3, 5)
+(6, 6)
+(4, 7)
+(9, 9)
+(9, 6)
+(6, 9)
+(6, 9)
+(1, 6)
+(7, 6)
+(6, 5)
+(6, 6)
+(10, 6)
+(4, 4)
+The best next move is: (6, 4)
+(4, 5)
+(1, 6)
+(9, 6)
+(9, 9)
+(6, 6)
+(3, 9)
+(6, 7)
+(8, 8)
+(4, 2)
+(9, 2)
+The best next move is (3,5) to form a row of 5 white pieces in the horizontal direction.
+(7, 5)
+(8, 4)
+(7, 5)
+(5, 7)
+(5, 5)
+(0, 1)
+(1, 2)
+The best next move is (5,9) to create a winning sequence of 5 in a row horizontally with the white stones.
+The best next move is (0, 3) to potentially create a winning row horizontally.
+The best next move is (7, 7) to form a vertical line of white stones in the middle column.
+4, 5
+(5, 6)
+(4, 6)
+(6, 5)
+(6, 6)
+(6, 7)
+(4, 4)
+(4, 7)
+(3, 4)
+(5, 4)
+(6, 4)
+(8, 4)
+(10, 4)
+(4, 5)
+(6, 9)
+(1, 9)
+(10, 11)
+(7, 6)
+(10, 7)
+(0, 8)
+(5, 7)
+(9, 6)
+(3, 9)
+(7, 6)
+(5, 2)
+(5, 5)
+(7, 5)
+(4, 2)
+(6, 1)
+(2, 6)
+(5, 3)
+(0, 5)
+(10, 3)
+The best next move is: (4, 2)
+(5, 9)
+(4, 6)
+(5, 6)
+(7, 5)
+(10, 6)
+(4, 7)
+(10, 3)
+(2, 6)
+(7, 2)
+(9, 1)
+(7, 6)
+(9, 2)
+(4, 2)
+(10, 7)
+(5, 2)
+(8, 4)
+(10, 2)
+(8, 8)
+The best next move is: (6, 6)
+(4, 1)
+The best move to make next is: (6, 9)
+(7, 7)
+(6, 7)
+(10, 6)
+(9, 9)
+(6, 5)
+(8, 8)
+(9, 6)
+(10, 7)
+(6, 6)
+(9, 2)
+(3, 4)
+(8, 4)
+(8, 9)
+(7, 6)
+(8, 8)
+(5, 9)
+(4, 5)
+(6, 4)
+(3, 9)
+(6, 7)
+(4, 6)
+(6, 5)
+(6, 9)
+(6, 1)
+(4, 7)
+(0, 8)
+(1, 6)
+(7, 7)
+(3, 5)
+(4, 4)
+(0, 5)
+(9, 6)
+(1, 3)
+(10, 6)
+(6, 6)
+(5, 7)
+The best next move is: (5, 4)
+(7, 9)
+(6, 2)
+The best next move is: (6, 4)
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . w . . . . .
+. . . . . b . . . . .
+. . . . . b . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+The best next move would be (6, 6) to complete a diagonal line of w. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . w . . . . .
+. . . . . b . . . . .
+. . . b w b . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+The best next move would be (4, 4) to potentially form a line of white pieces vertically in the center column.
+The best next move would be: (4, 5)
+(5, 5)
+(5, 3)
+The best next move would be (5, 5) to form a diagonal of three 'w's. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . b . . .
+. . b b w w . . . . .
+. . . w w b . . . . .
+. . . b w b w . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(4, 8)
+The best next move would be (3, 7) to block the opponent from getting 5 in a row with their white pieces in the diagonal direction. 
+
+Updated board after the move:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. b . . . . . . . . .
+. . . . . . . b b . .
+. . b b w w . . w . .
+. . . w . b . . . . .
+. . . b w b w . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(4, 9)
+The best next move is (2, 1) to block the opponent's potential winning move in the next turn.
+(2, 9)
+The best next move is (4, 5) to create a potential winning sequence of 5 white pieces in a row horizontally.
+(8, 3)
+The best next move would be (6, 3) to create a potential winning diagonal with the existing white stones on the board.
+(4, 4)
+(5, 3)
+(5, 5)
+(6, 5)
+(5, 0)
+The best next move would be: (5, 5)
+(3, 5)
+(6, 4)
+(3, 7)
+(3, 2)
+The best next move is: (4, 2)
+(2, 1)
+(3, 5)
+(5, 3)
+(8, 3)
+(9, 5)
+(3, 7)
+(5, 5)
+(3, 2)
+(1, 9)
+The best next move is: (5, 5)
+(4, 8)
+(5, 3)
+(2, 1)
+(2, 9)
+(2, 2)
+The best next move would be: (5, 5)
+(8, 8)
+The best next move is (5, 5). 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . w .
+. b w . . . . . . w .
+. . w . . b . b . . .
+. . b b w w . . w w .
+w . . w w b . . . . .
+. . . b w b w . . . .
+. . . . . . b . . . .
+. . . w . . . . w . b
+. . b . . b . . b . .
+b . . b . . . . . . .
+(6, 5)
+(6, 3)
+(2, 8)
+The best next move is: (2, 9)
+(2, 2)
+(2, 1)
+(1, 2)
+The best next move is (4, 5). 
+
+Updated board:
+. . . . . . . . . . .
+. . w . . . . . . w .
+. b w . . . . . w w .
+. . w . . b . b . . .
+. . b b w w . . w w .
+w . . w . w . . . . .
+. . . b w b w . . . .
+. . . . . . b . . . .
+. . . w . . . . w . b
+. . b . . b . . b . .
+b . . b . . b . . b .
+(2, 6)
+The best next move is (3, 5).
+(8, 2)
+(3, 5)
+(2, 6)
+(5, 5)
+(0, 4)
+(4, 4)
+(0, 1)
+(4, 1)
+The best next move is: (4, 4)
+(5, 5)
+(4, 5)
+(5, 3)
+(5, 0)
+(2, 8)
+(8, 2)
+(0, 1)
+(1, 2)
+(1, 9)
+(1, 10)
+The best next move is: (3, 5)
+(6, 3)
+(8, 2)
+(8, 3)
+(4, 5)
+(2, 6)
+The best next move is: (5, 5)
+(9, 2)
+(5, 3)
+(5, 0)
+(7, 6)
+(3, 5)
+(2, 8)
+(2, 1)
+(4, 8)
+(3, 7)
+(8, 8)
+(9, 5)
+(9, 8)
+(9, 6)
+The best next move is: (4, 8)
+(5, 5)
+(5, 4)
+(4, 5)
+(6, 5)
+(5, 3)
+(6, 4)
+(2, 6)
+(4, 4)
+(6, 3)
+(5, 0)
+(8, 8)
+(4, 9)
+(5, 2)
+The best next move is (5,5).
+(6, 5)
+(10, 6)
+(4, 5)
+(2, 6)
+(4, 4)
+(9, 5)
+(3, 5)
+(4, 3)
+(7, 5)
+(8, 5)
+The best next move is: (4,7)
+The best next move is: (1, 2)
+(0, 1)
+(0, 2)
+(6, 3)
+(9, 5)
+(5, 0)
+(7, 5)
+(9, 6)
+(5, 3)
+(9, 2)
+(8, 3)
+(5, 2)
+(6, 6)
+(6, 9)
+The best next move is (5, 5). 
+
+Updated board:
+. b w . b . . b . . b
+. . w . . . . . . w w
+. b w b . . w . w w .
+. b w . . b . b b . .
+. w b b w w . w w w .
+w . w w b b . . . . .
+. . . b w b w . . w .
+. . b . . b b . . . .
+. . w w . w b . w . b
+. . b . . b w . b . .
+b . . b . . b . . b .
+(4, 7)
+(9, 6)
+(7, 6)
+(7, 5)
+(7, 2)
+(7, 6)
+(6, 5)
+(3, 5)
+(5, 4)
+(7, 8)
+The best next move is: (9, 8)
+(8, 2)
+(5, 9)
+(9, 5)
+(8, 8)
+(10, 6)
+(8, 5)
+(7, 2)
+(10, 9)
+(10, 7)
+The best next move is: (5, 4)
+(4, 5)
+(8, 8)
+(5, 5)
+(2, 3)
+(6, 5)
+(4, 4)
+(9, 5)
+(8, 3)
+(4, 9)
+(5, 3)
+(5, 0)
+(2, 6)
+(3, 7)
+(1, 2)
+(4, 7)
+(8, 2)
+(7, 5)
+(6, 4)
+(3, 8)
+(4, 3)
+(9, 6)
+(3, 5)
+(0, 2)
+(2, 8)
+(2, 2)
+(2, 1)
+(0, 1)
+The best next move is: (5, 2)
+The best next move is: (9, 2)
+(2, 9)
+(1, 3)
+(1, 9)
+(4, 2)
+(6, 3)
+(8, 5)
+(4, 1)
+(9, 9)
+The best next move is: (5, 9)
+(4, 1)
+(4, 7)
+(4, 5)
+(4, 4)
+(5, 4)
+(6, 6)
+(10, 0)
+(8, 8)
+(10, 7)
+(3, 5)
+(6, 5)
+(9, 9)
+(10, 6)
+(0, 1)
+(7, 5)
+(0, 2)
+(9, 5)
+(0, 4)
+(8, 5)
+(6, 4)
+(9, 9)
+(1, 2)
+(0, 7)
+(0, 10)
+(7, 2)
+(5, 3)
+(9, 11)
+The best next move is: (6, 3)
+(3, 7)
+(4, 3)
+(4, 2)
+(0, 11)
+(9, 2)
+(0, 2)
+(3, 2)
+(5, 0)
+(8, 2)
+(2, 6)
+(7, 6)
+(4, 6)
+(3, 3)
+(3, 4)
+(3, 4)
+(3, 4)
+(3, 5)
+(3, 6)
+(2, 6)
+(3, 7)
+(3, 7)
+(2, 4)
+(2, 5)
+(2, 5)
+(2, 4)
+(3, 2)
+(3, 4)
+(3, 4)
+(3, 4)
+(3, 7)
+(2, 7)
+(3, 7)
+(3, 3)
+(2, 3)
+(7, 4)
+(4, 3)
+The best next move is: (5, 2)
+(6, 6)
+(5, 5)
+(4, 6)
+(6, 4)
+The best next move is: (3, 3)
+(5, 5)
+(6, 6)
+(5, 2)
+(7, 0)
+(4, 5)
+The best next move is: (4, 2)
+(5, 4)
+(5, 2)
+(4, 5)
+(4, 6)
+(5, 5)
+(6, 6)
+(6, 7)
+(5, 4)
+(4, 3)
+(3, 3)
+The next best move is: (3, 0)
+(4, 2)
+(5, 2)
+(4, 1)
+The best next move would be (6, 5) to place a black stone and potentially create a winning sequence. 
+
+Updated board after placing (6, 5):
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . w . b . . . . . .
+. w w w . w w . . . .
+. . b . b b . . . . .
+. . . . w . w b . . .
+. . . . b . . . . . .
+. . . . b . . . . . .
+. . . . . b . . . . .
+. . . . . . . . . . .
+The best next move is (6, 7). 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . b . . .
+. . . b . . . . . . .
+. w w w . w w . . . .
+. . b . b b . . . . .
+. . . . w w w b . . .
+. . . . b . . . . . .
+. . . . b . . . . . .
+. . . . . b w . . . .
+. . . . . . . . . . .
+(5, 5)
+(5, 4)
+(6, 4)
+(7, 4)
+(4, 5)
+(7, 0)
+The best next move is (7, 4) to create a potential winning sequence for the white player. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. b . . . . . b . . .
+. . . b . . . . . . .
+. w w w . w w . . . .
+. . b . b b . . . . .
+. . . . w w w b . . .
+w . . . w . . . . . .
+. . . . b . . . . . .
+. . . . . b . . . . .
+. . . . . . . . . . .
+(5, 4)
+(6, 5)
+(5, 5)
+(9, 5)
+(3, 3)
+(3, 0)
+The best next move would be (3, 3) to block the potential winning sequence of black stones in the diagonal direction. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. b . . . b . b . . .
+w . . b . . . . . . .
+. w w w . w w . . . .
+. . b . b b . . . . .
+. . . . w w w b . . .
+w . . . b . . . . . .
+. . . . b . . . . . .
+. . . . . b . . . . .
+. . . . . . . . . . .
+(2, 5)
+(1, 4)
+The best next move would be: (4, 4)
+The best next move is (5, 6).
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . b . . . . . .
+. . . . . b w b . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(4, 4)
+(4, 6)
+The best next move would be (4, 4) to create a potential winning sequence for white:
+
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . b . . . . . . .
+. . . . b . w . . . .
+. . . . . b w . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(4, 6)
+(6, 5)
+The best next move would be: (4, 6)
+(6, 5)
+(4, 4)
+(3, 3)
+(3, 8)
+(3, 8)
+(3, 8)
+(3, 2)
+The best next move is: (4, 6)
+(6, 5)
+(4, 5)
+(6,5)
+(2, 5)
+(5, 6)
+(6, 8)
+(4, 5)
+(6, 5)
+(4, 6)
+The next best move based on the given list is: (1, 1)
+The best next move is (6, 6) to block the opponent from creating a winning sequence vertically. 
+
+Updated board:
+. . . . b . . . . . .
+. w . . . . . . . . .
+. . . b . b . . . . .
+. . w b . . . . . . .
+. . . . b w w . . . .
+. . . . . b w . . . .
+. . . . . w . . . . .
+. . . . b . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(1, 8)
+(1, 8)
+(4, 4)
+(0, 4)
+(5, 8)
+(4, 8)
+(5, 5)
+(4, 6)
+(6, 5)
+(2, 7)
+The best next move is (5, 5). 
+
+Updated board:
+. . . b b . . . . . .
+. w . . . . . . . . .
+b . . b . b . w . . .
+. . w b . . . . . . .
+. . . . b w w . . . .
+. . . . . w w . . . .
+. . . . . w w . . . .
+. . . . b . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(2, 5)
+(7, 4)
+(2, 3)
+(8,5)
+The best next move is: (7, 4)
+(6, 6)
+(8, 5)
+(8, 6)
+(7, 2)
+The best next move would be (2, 7) to place a black stone and potentially create a winning row in the next few moves.
+(4, 4)
+(5, 8)
+The best next move is: (7, 4)
+(6, 5)
+(8, 3)
+The best next move is (5, 8).
+(7, 4)
+(5, 6)
+(8, 3)
+(4, 6)
+(7, 2)
+(8, 3)
+(2, 3)
+(8, 2)
+(6, 5)
+(6, 4)
+The best next move is (4, 5). 
+
+After placing a white stone at (4, 5), there are multiple potential lines for white to potentially get 5 in a row:
+- (4, 5) to (3, 6) to (2, 7) to (1, 8) to (0, 9) for a diagonal line
+- (4, 5) to (3, 5) to (2, 5) to (1, 5) to (0, 5) for a vertical line
+- (4, 5) to (4, 6) to (4, 7) to (4, 8) to (4, 9) for a horizontal line
+
+This move disrupts the opponent's potential lines and increases the chance of victory for white.
+(6, 5)
+(8, 3)
+(6, 6)
+(3, 3)
+(6, 4)
+(6, 1)
+The best next move is (8, 5)
+(8, 6)
+(8, 3)
+(3, 3)
+(2, 3)
+(1, 1)
+(0, 5)
+(0, 4)
+(0, 3)
+(0, 1)
+(7, 4)
+(5, 5)
+(8, 2)
+(8, 4)
+The best next move would be (6, 6) to create a potential winning position in the next few turns.
+(6, 5)
+(2, 5)
+(8, 6)
+(1, 1)
+(0, 3)
+(3, 0)
+(6, 1)
+(7, 4)
+(3, 8)
+The best next move is (2, 5). 
+
+Updated board:
+. b . b b b . . . . .
+. w . . . . . . . . .
+b . . b . b . w . . .
+b . w b . . . . w . .
+. . . . b w w . b . .
+. . . . . b w . w . .
+. w w . w w w . . . .
+. . w . b . . . . . .
+b . b w w w b . . . .
+. b . . . . . . . . .
+. . . . . . . . . . .
+(2, 3)
+(3, 8)
+(3, 0)
+(9, 1)
+(9, 9)
+The best next move is: (5, 6)
+(5, 5)
+(4, 6)
+(5, 5)
+(6, 5)
+(4, 5)
+(4, 3)
+The best next move would be (4, 6) to create a potential winning diagonal line of white stones. 
+
+Updated board:
+. b . b b b . b . . .
+. w . . . . . . . . .
+b . . b . b . w . . .
+b . w b . . . . w . .
+. . . w b w w w b . .
+. . . . . b w . w . .
+. w . . w w w . . . .
+. . w . b . . . . . .
+b b b w w w b . . . .
+. b . . . . . . . w .
+. . . . . . . . . . .
+(5, 8)
+(3, 8)
+(3, 2)
+(3, 9)
+The best next move is: (6, 1)
+(4, 3)
+(0, 3)
+(7, 2)
+(6, 4)
+(2, 5)
+(4, 5)
+The best next move is: (6, 5)
+(5, 5)
+(5, 6)
+(4, 6)
+(5, 8)
+(2, 7)
+(7, 4)
+(4, 4)
+(5, 4)
+The best next move would be (5, 3) to create a potential winning sequence of white pieces horizontally in the middle row.
+The best next move would be (1, 2) to form a vertical row of white stones in column 2 and potentially block the opponent in that direction.
+The best next move would be (7, 8) to form a potential winning diagonal line of black stones.
+The best next move would be (9, 8). 
+
+Updated board:
+. b . b b b . b . . .
+. w w . . . . . . . .
+b . . b . b . w . . .
+b . w b . . . . w w .
+. . . w b w w . b . .
+. . . w w b w . w b .
+b w . . w w w . b . .
+. . w . b . . . w . .
+b b b w w w b . . . .
+. b . b w . . . b w .
+. . . . . . . . . . w
+(8, 0)
+(4, 5)
+(2, 3)
+(0, 1)
+(4, 3)
+(2, 0)
+(0, 4)
+(1, 2)
+(2, 5)
+(3, 2)
+(8, 2)
+(6, 6)
+(2, 4)
+The best next move is (7, 8)
+(8, 6)
+(8, 5)
+(0, 3)
+(6, 8)
+(7, 4)
+(4, 3)
+(9, 3)
+(9, 8)
+(6, 6)
+(9, 9)
+(9, 1)
+(9, 6)
+The best next move is: (7, 8)
+(10, 6)
+(9, 3)
+(8, 2)
+(8, 1)
+(7, 2)
+(8, 4)
+(0, 1)
+(2, 7)
+(7, 4)
+(0, 3)
+(5, 3)
+(4, 5)
+(6, 5)
+(1, 2)
+(8, 3)
+(9, 6)
+(2, 5)
+(0, 4)
+(9, 9)
+(9, 8)
+(6, 4)
+(4, 8)
+(4, 6)
+(4, 4)
+(4, 3)
+(6, 6)
+(7, 4)
+(9, 1)
+(0, 7)
+(6, 8)
+(6, 8)
+(8, 5)
+(10, 1)
+(7, 7)
+After analyzing the current board and possible moves, the best next move would be: (3, 3)
+(4, 8)
+(8, 3)
+(8, 5)
+(8, 6)
+(5, 6)
+(4, 9)
+The best next move is: (3, 3)
+(3, 8)
+(2, 4)
+(3, 2)
+(1, 1)
+(5, 3)
+(4, 3)
+(1, 2)
+(9, 1)
+(0, 1)
+(1, 8)
+The best next move is: (6, 6)
+(5, 8)
+(3, 8)
+(2, 7)
+(0, 7)
+The best next move is: (7, 7)
+(8, 8)
+The best next move would be: (4, 7)
+(2, 5)
+(3, 8)
+(0, 5)
+(8, 3)
+(2, 7)
+(3, 7)
+(5, 8)
+(6, 8)
+(2, 4)
+(2, 3)
+(9, 8)
+(0, 3)
+(3, 9)
+(4, 5)
+(1, 8)
+(0, 4)
+(7, 8)
+(9, 6)
+(3, 0)
+(5, 3)
+(1, 1)
+(0, 2)
+The best next move would be (5, 3).
+(6, 6)
+(8, 6)
+(6, 8)
+(4, 8)
+(5, 4)
+(5, 6)
+(7, 2)
+(5, 8)
+(9, 6)
+(7, 8)
+(5, 5)
+(10, 6)
+(9, 9)
+(8, 8)
+(4, 4)
+(10, 8)
+(5, 4)
+(5, 8)
+(5, 9)
+(5, 7)
+One possible best next move could be: (5, 8)
+(6, 8)
+(6, 2)
+(7, 8)
+(8, 8)
+(6, 6)
+(4, 3)
+(6, 5)
+(0, 5)
+(8, 3)
+(8, 4)
+(5, 4)
+(6, 4)
+(6, 1)
+(6, 0)
+(9, 1)
+(8, 6)
+(8, 2)
+(7, 2)
+(5, 3)
+(9, 3)
+(9, 6)
+(9, 8)
+(7, 1)
+(9, 9)
+(8, 5)
+(9, 1)
+(1, 2)
+(5, 9)
+(9, 11)
+(0, 1)
+(4, 4)
+(3, 9)
+(2, 4)
+(0, 8)
+The best next move would be (6, 6) to form a horizontal line of 5 "w"s.
+(8, 8)
+(6, 8)
+(3, 8)
+(7, 8)
+(4, 8)
+(6, 8)
+(3, 9)
+(7, 7)
+(3, 7)
+(3, 3)
+(7, 4)
+(6, 7)
+The best next move is: (7, 7)
+(8, 8)
+(0, 8)
+(2, 7)
+(1, 5)
+(6, 8)
+(1, 1)
+(8, 6)
+(6, 4)
+The best next move is: (5, 6)
+(1, 2)
+(5, 9)
+(6, 7)
+(4, 9)
+(3, 0)
+(9, 9)
+(6, 6)
+(3, 3)
+(3, 2)
+(9, 1)
+(2, 5)
+The best next move is: (0, 1)
+(1, 7)
+The best next move would be (0, 6) to form a diagonal line of three white pieces in column 6.
+The best next move would be (7, 8) to form a potential winning row horizontally with the white stones.
+(6, 7)
+(6, 6)
+(4, 3)
+(6, 8)
+(7, 7)
+(4, 4)
+(8, 8)
+(4, 5)
+(8, 6)
+(5, 7)
+(8, 5)
+(5, 9)
+(3, 0)
+(5, 6)
+(7, 2)
+(8, 2)
+(8, 1)
+(0, 1)
+(0, 3)
+(9, 6)
+(3, 3)
+(3, 2)
+(6, 4)
+(6, 5)
+(7, 4)
+(9, 3)
+(4, 7)
+(5, 4)
+(9, 9)
+(0, 5)
+(8, 4)
+(8, 3)
+(5, 3)
+(2, 3)
+(9, 1)
+(3, 2)
+(3, 0)
+(0, 8)
+(2, 5)
+(8, 7)
+The best next move is: (3, 0)
+(8, 8)
+(5, 5)
+(6, 8)
+(0, 3)
+(10, 6)
+(10, 8)
+(3, 3)
+(5, 9)
+(0, 2)
+(4, 7)
+(10, 1)
+(2, 4)
+(1, 7)
+(0, 4)
+(6, 0)
+(0, 6)
+(3, 2)
+(7, 7)
+(4, 8)
+(5, 8)
+(2, 3)
+(6, 2)
+(1, 2)
+(1, 1)
+(0, 1)
+(9, 6)
+(5, 7)
+(3, 2)
+(9, 3)
+(4, 9)
+(3, 7)
+(10, 8)
+(1, 8)
+(5, 4)
+(10, 0)
+(3, 8)
+(7, 8)
+(2, 7)
+(9, 1)
+(9, 9)
+The next recommended move is: (8, 0)
+(2, 5)
+(6, 6)
+(0, 8)
+(9, 8)
+(7, 1)
+(2, 0)
+(5, 6)
+(5, 3)
+(1, 5)
+(3, 9)
+(7, 2)
+The best next move is: (8, 0)
+The best next move would be: (6, 5)
+The best next move is: (6, 4)
+(3, 10)
+The best next move would be (2, 5) to create a potential winning line vertically of white stones. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . w . . . .
+. . . . . b . . . . .
+. . . . . w b . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(2, 7)
+(4, 6)
+(4, 3)
+(2, 6)
+(6, 4)
+The best next move would be (4, 6) to create a potential winning row of 5 with the white piece. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . b . . w . . .
+. . . . . b . . . . .
+. . . . w . b . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(8,6)
+(5, 5)
+(4, 4)
+The best next move would be (4, 5) to place a black stone. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . b w b . w . . .
+. . . . . b . . . . .
+. . . . w b b . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+The best next move is (4,3) to form a vertical row of 5 white pieces. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . b . . . . . . .
+. . . b w w w . . . .
+. . . . . b . . . . .
+. . . . w b b . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(7, 1)
+(6, 4)
+(5, 5)
+(6, 1)
+(5, 6)
+The best next move would be (4, 6) to create a potential diagonal of white pieces in the bottom left to top right direction.
+(4, 5)
+(2, 0)
+(4, 4)
+(2, 4)
+(4,6)
+(6, 5)
+(4, 5)
+(3, 3)
+(4, 6)
+(8, 7)
+(5, 5)
+(5, 6)
+(3, 6)
+The best next move is: (4, 6)
+(1, 8)
+The best next move is: (4, 6)
+(3, 6)
+(6, 6)
+(2, 8)
+(3, 3)
+(7, 0)
+(4, 4)
+(3, 6)
+(6, 8)
+(4, 3)
+(5, 4)
+The best next move is: (1, 0)
+(1, 0)
+(2, 0)
+(3, 0)
+(3, 6)
+(4, 5)
+(5, 6)
+(2, 4)
+(3, 3)
+(4, 3)
+(0, 0)
+(2, 4)
+(0, 3)
+(2, 8)
+(4, 6)
+(1, 7)
+(3, 8)
+(6, 6)
+(4, 4)
+(0, 9)
+The best next move would be (7, 7).
+The best next move is (4, 6).
+(3, 8)
+(2, 4)
+(3, 6)
+(4, 3)
+(4, 4)
+(2, 5)
+The best next move is (5, 6) to create a potential winning line diagonally from top-right to bottom-left.
+(4, 6)
+(2,6)
+The best next move would be (4, 6). 
+
+Updated board:
+. . . b b . . . . w .
+. . . . . . . b w . .
+. b . . w w w . w . .
+. . . b . . w . b b .
+. . b b w w w b . . .
+. . . . w b w . . . .
+. . b . w b b . b . .
+. . . . . . b w . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(1, 8)
+(2, 4)
+(2, 5)
+(4, 5)
+(3, 6)
+(3, 8)
+(2, 6)
+(4, 4)
+(3, 2)
+(6, 2)
+(3, 6)
+(6, 6)
+(6, 4)
+(6, 8)
+(7, 6)
+(5, 5)
+(3, 3)
+The best next move is: (6, 5)
+(5, 4)
+(4, 6)
+(5, 6)
+(2, 6)
+(5, 5)
+(6, 5)
+(5, 9)
+The best next move is (2, 4). 
+
+Updated board:
+. . . b b . . . . w .
+. . . . b . . b w . .
+. b . . w w w . w . .
+. . w b . . w . b b .
+. . b b w w w . . . .
+. b . . w b w . . w .
+. . b . w b b . b . .
+. . . . . . b w . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(2, 5)
+(2, 3)
+(3, 4)
+Possible moves for the white player: 
+
+1. (6, 5)
+2. (6, 6)
+3. (4, 4)
+4. (4, 5)
+5. (4, 6)
+6. (5, 6)
+7. (4, 3)
+8. (5, 3)
+9. (6, 3)
+10. (7, 3)
+11. (7, 4)
+12. (7, 5)
+13. (7, 6)
+
+The best next move for white in this situation would be (6, 5) to potentially create a line of 5 horizontally.
+(4, 3)
+(5, 5)
+(5, 4)
+(5, 7)
+(5, 6)
+The best next move would be: (3, 3)
+(7, 1)
+(3, 4)
+(5, 4)
+(5, 5)
+(5, 6)
+(6, 4)
+(4, 3)
+(3, 4)
+(3, 5)
+(5, 4)
+(4, 3)
+(3, 3)
+(4, 7)
+(5, 4)
+(5, 5)
+(4, 3)
+(3, 7)
+(4, 6)
+(5, 6)
+(6, 4)
+(4, 7)
+(6, 1)
+(5, 1)
+(5, 5)
+(7, 5)
+The best next move is: (6, 4)
+(7, 5)
+(4, 6)
+(5, 4)
+(6, 5)
+The best next move is: (4, 6)
+(5, 5)
+(3, 7)
+(5, 4)
+(5, 6)
+(5, 1)
+(3, 5)
+(2, 4)
+(1, 7)
+(4, 7)
+(7, 5)
+(4, 3)
+(3, 4)
+(5, 0)
+(2, 3)
+The best next move would be: (3, 7)
+(4, 3)
+(1, 9)
+Based on the current board, the best next move would be (5, 4) to form a row of 5 black stones vertically.
+(6, 5)
+(5, 5)
+(4, 6)
+(3, 5)
+(5, 6)
+(6, 4)
+(6, 1)
+(3, 4)
+(4, 3)
+(6, 6)
+The best next move is (5, 5).
+(6, 5)
+(4, 6)
+(3, 5)
+(3, 7)
+(7, 5)
+(2, 4)
+(4, 3)
+(8, 8)
+The best next move is (4, 3).
+(8, 8)
+(5, 6)
+(9, 0)
+(5, 5)
+(5, 4)
+(4, 6)
+(8, 8)
+(3, 5)
+(7, 8)
+(1, 5)
+(4, 5)
+The best next move would be (1, 5) to try and create a horizontal line of white pieces, as well as block the opponent's potential winning moves in that direction.
+(1, 7)
+(1, 9)
+(7, 8)
+(0, 0)
+(5, 4)
+(8, 8)
+(3, 4)
+(4, 5)
+(4, 6)
+(1, 6)
+The best next move would be: (8, 8) to form a potential horizontal win for the white player. 
+
+Updated board:
+. . . . . b . b . . .
+. . . . . b w b . w .
+. . . w b . . . . . .
+. . . b b w . b . . .
+. . . w . w b w . b .
+. . . . w b w . . . .
+. . . . b w w . . . .
+. . . . . w . . b b .
+. . . . . . . . w w .
+. . . . . . . . . . .
+(7, 5)
+(7, 8)
+(7, 9)
+(4, 5)
+(5, 6)
+(3, 7)
+(7, 1)
+(5, 5)
+(6, 6)
+(0, 5)
+(6, 5)
+(2, 4)
+(1, 5)
+(0, 0)
+(9, 1)
+(4, 3)
+(5, 4)
+(1, 1)
+(1, 6)
+(6, 4)
+(1, 7)
+The next best move according to the provided list of moves is: (5, 0)
+(0, 7)
+(4, 6)
+(8, 1)
+(5, 5)
+(5, 1)
+(3, 4)
+(7, 0)
+(4, 7)
+The best next move is: (4, 9)
+(3, 5)
+(5, 7)
+The best next move would be (5, 5). This move would create a threat of forming a horizontal line of 5 white stones in the next turn.
+(3, 3)
+(4, 1)
+(4, 6)
+(5, 4)
+(5, 6)
+(5, 1)
+(6, 5)
+(5, 7)
+(1, 5)
+(8, 8)
+(7, 9)
+(4, 9)
+(6, 6)
+(1, 1)
+(1, 7)
+(6, 4)
+(3, 4)
+(9, 1)
+(9, 0)
+The best next move is: (2, 4)
+(9, 0)
+(9, 1)
+(9, 0)
+(6, 1)
+(6, 4)
+(3, 7)
+(5, 1)
+(4, 3)
+(8, 8)
+(3, 1)
+(5, 1)
+(1, 6)
+(9, 0)
+(3, 0)
+(4, 7)
+The best next move is: (3, 5)
+(4, 0)
+(1, 6)
+(7, 1)
+(4, 5)
+(6, 1)
+A valid move that is available from the list is: (5, 3)
+The best next move is: (8, 8)
+(1, 7)
+(1, 9)
+(1, 6)
+(1, 5)
+(1, 1)
+(7, 5)
+(7, 8)
+(1, 0)
+(3, 3)
+(0, 7)
+(5, 4)
+(3, 4)
+(9, 5)
+(10, 0)
+(5, 5)
+(10, 5)
+The best next move would be (4,7) to create a winning sequence of "b b b b b" horizontally.
+(5, 6)
+(8, 8)
+(9, 5)
+(5, 7)
+(8, 1)
+(10, 5)
+(9, 9)
+The best next move would be: (3, 7)
+(9, 9)
+(3, 8)
+The best next move is: (4, 7)
+(5, 6)
+(3, 4)
+(4, 9)
+(5, 7)
+(7, 5)
+(6, 5)
+(5, 5)
+(6, 6)
+(8, 8)
+(9, 9)
+(7, 9)
+(9, 5)
+(9, 6)
+(8, 8)
+(9, 4)
+The best next move is: (1, 7)
+(1, 5)
+(1, 8)
+(4, 6)
+The best next move is: (6, 5)
+(7, 3)
+(6, 5)
+(5, 5)
+(4, 5)
+(4, 6)
+(7, 4)
+(4, 6)
+(4, 5)
+(4, 2)
+(6, 5)
+(4, 3)
+The best next move would be: (1, 6)
+(1, 6)
+(1, 5)
+(7, 4)
+(8, 6)
+(8, 6)
+(8, 1)
+(1, 3)
+(5, 5)
+(1, 7)
+(1, 7)
+(2, 4)
+(4, 5)
+(5, 5)
+(7, 4)
+(8, 6)
+(8, 8)
+(5, 5)
+(5, 9)
+The best next move is: (3, 6)
+(8, 6)
+(8, 8)
+(6, 5)
+(5, 5)
+(5, 9)
+(7, 4)
+(4, 5)
+(7, 4)
+(2, 4)
+(5, 5)
+(5, 4)
+The best next move is: (5,5)
+(6, 5)
+(5, 9)
+(8, 8)
+(7, 4)
+(8, 6)
+(8, 8)
+(5, 4)
+(9, 9)
+The best next move would be: (5, 4)
+(4, 5)
+(3, 5)
+(5, 5)
+(8, 6)
+(7, 4)
+(5, 5)
+(1, 5)
+(6, 5)
+(2, 5)
+(4, 5)
+(5, 5)
+(6, 5)
+(8, 6)
+(6,5)
+(7, 4)
+(5, 4)
+(6, 6)
+In order to win, the best next move would be: (8,8)
+(10, 10)
+The best next move is: (5, 4)
+(5, 5)
+(5, 8)
+The best next move is: (4, 5)
+(6, 5)
+(3, 5)
+(5, 5)
+(5, 4)
+(9, 9)
+(9, 0)
+(8, 0)
+(5, 8)
+(5, 9)
+(6, 6)
+(9, 9)
+(5, 9)
+(6, 1)
+The best next move would be (4, 5) to create a potential four-in-a-row for black horizontally.
+(3, 5)
+(3, 7)
+(6, 6)
+(7, 4)
+(3, 6)
+(2, 4)
+(3, 8)
+(5, 5)
+(4, 6)
+(2, 5)
+(3, 9)
+The best next move is: (6, 5)
+(6, 1)
+(4, 9)
+(5, 5)
+(6, 11)
+(8, 5)
+(7, 4)
+(5, 4)
+(7, 2)
+(8, 8)
+(3, 5)
+(5, 8)
+(7, 2)
+(4, 3)
+(0, 1)
+The best next move would be (2, 1) to create a potential winning row horizontally with the white pieces.
+(5, 6)
+The best next move is: (4, 4)
+The best next move would be (8, 1) to create a potential winning diagonal line.
+The best next move is: (2, 5)
+(3, 5)
+(1, 9)
+The best next move would be (2, 8) to block the opponent's potential winning move in the horizontal direction.
+(1, 8)
+(6, 5)
+(9, 7)
+(9, 9)
+(9, 10)
+(5, 6)
+(6, 6)
+(8, 8)
+(9, 8)
+The best next move would be (4, 5) to potentially create a winning line horizontally with the existing pieces on the board.
+(3, 5)
+(2, 5)
+(9, 7)
+(2, 8)
+(3, 7)
+(10, 8)
+(2, 4)
+(7, 4)
+(8, 8)
+(6, 5)
+(9, 8)
+(4, 6)
+(8, 5)
+(3, 6)
+(1, 9)
+(8, 6)
+(7, 2)
+(1, 8)
+(6, 6)
+(5, 6)
+(6, 7)
+(4, 8)
+(6, 4)
+The best next move is: (6, 6)
+(6, 2)
+(7, 8)
+Based on the current board, the best next move would be (9, 7) to create an opportunity for a winning move.
+(6, 1)
+(0, 7)
+(5,6)
+(3, 8)
+(4, 2)
+(3, 9)
+(6, 2)
+(5, 1)
+(4, 6)
+(4, 8)
+(4, 9)
+(5, 8)
+(5, 9)
+(6, 7)
+(1, 5)
+(6, 6)
+(0, 0)
+The best next move is: (1, 9)
+(5, 8)
+(8, 8)
+(3, 5)
+(4, 8)
+(1, 5)
+(0, 7)
+(5, 9)
+(6, 7)
+(9, 9)
+(7, 8)
+(1, 8)
+(9, 8)
+(0, 0)
+(6, 5)
+(9, 7)
+(6, 6)
+(3, 6)
+(3, 0)
+(4, 9)
+(6, 4)
+(7, 4)
+(0, 1)
+(0, 11)
+(10, 8)
+(4, 4)
+(3, 11)
+(4, 6)
+(9, 10)
+(6, 1)
+(6, 2)
+(8, 1)
+(5, 1)
+The best next move is: (4, 3)
+(8, 1)
+(10, 8)
+(6, 3)
+The best next move would be (5, 3) to create a potential winning sequence horizontally.
+The best next move is: (8, 5)
+(8, 6)
+(9, 8)
+(9, 7)
+(3, 5)
+(9, 9)
+(9, 10)
+(7, 8)
+(7, 4)
+(9, 11)
+(7, 2)
+(8, 7)
+(4, 6)
+(5, 6)
+(6, 4)
+(10, 0)
+(9, 12)
+(8, 1)
+(6, 5)
+(2, 9)
+(7, 11)
+(4, 6)
+(8, 8)
+(5, 8)
+(9, 7)
+(4, 8)
+(5, 9)
+(3, 1)
+The best next move is (6, 9). 
+
+Updated board:
+w w . . . . . b . . .
+. . . . . b . . b w b
+. w b . w w b . b w .
+b w . . . b b b b w b
+. . b w w w w . b b .
+. b . w w b w . w w .
+. w b w w b w b . . .
+. . b . w . . . w . .
+. w . . . b b b w . .
+. . . . . . b wb w b
+b . . . . . . . b . w
+The best next move is (9, 6) to form a horizontal row of five black stones. 
+
+Updated board:
+w w . . . . . b . . .
+. . . . . b . . b w b
+. w b . w w b . b w b
+b w . . . b b b b w b
+. . b w w w w . b b .
+. b . w w b w . w w .
+. w b w w b w b . w .
+. . b . w . . . w . .
+. w . . . b b b w . .
+. . . . . . b b w w b
+b . . . . . b b b . w
+(0, 7)
+(6, 7)
+(1, 9)
+(6, 9)
+(5, 6)
+(4, 6)
+(7, 8)
+(9, 7)
+(1, 5)
+(9, 9)
+(2, 10)
+(6, 6)
+(10, 0)
+(3, 5)
+(9, 10)
+(10, 8)
+(10, 10)
+(9, 8)
+(8, 5)
+(2, 5)
+(9, 6)
+(3, 6)
+(5, 5)
+(6, 5)
+The best next move is: (8, 6)
+(9, 5)
+The best next move is: (5, 8)
+(6,5)
+(5, 6)
+(1, 5)
+(5, 1)
+(5, 9)
+(5, 4)
+(2, 2)
+(0, 0)
+(0, 1)
+(0, 7)
+(10, 0)
+(9, 9)
+(7, 2)
+(0, 11)
+(9, 5)
+(8, 8)
+(7, 4)
+(8, 5)
+(5, 5)
+(9, 8)
+(5, 3)
+(6, 2)
+(7, 8)
+(7, 9)
+(5, 5)
+(6, 5)
+The best next move is (4, 5) to create a potential winning diagonal of white stones. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . b . . . .
+. . . . . b w . . . .
+. . . . . b . . . . .
+. . . . . w . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(6, 3)
+(3, 6)
+(4, 6)
+(4, 3)
+(5, 5)
+(6, 5)
+(3, 7)
+The best next move is: (5, 5)
+(4, 5)
+(3, 6)
+(6, 5)
+(5, 2)
+(6, 6)
+The best next move to make is: (4,6)
+(6, 4)
+(4, 5)
+(3, 6)
+(7, 8)
+(5, 5)
+(5, 2)
+(3, 7)
+(6, 5)
+(6, 6)
+(7, 2)
+(4, 6)
+(3, 8)
+(4, 5)
+(4, 6)
+(5, 5)
+(5, 3)
+(6, 4)
+(6, 6)
+(6, 5)
+(4, 2)
+(4, 5)
+(7, 8)
+(5, 3)
+(8, 6)
+The best next move is: (5, 3)
+(1, 3)
+The best next move would be (4, 5) to create a potential winning sequence in the horizontal direction.
+(2, 7)
+(1, 0)
+(2, 3)
+(3, 6)
+(0, 0)
+(1, 3)
+(1, 9)
+The best next move would be: (3, 8)
+(3, 7)
+(3, 6)
+(1, 3)
+(1, 4)
+(5, 5)
+(3, 6)
+(6, 4)
+(4, 6)
+(8, 6)
+(5, 3)
+(4, 5)
+(1, 3)
+(3, 7)
+(1, 4)
+(5, 5)
+(1, 0)
+The best next move would be: (4, 6)
+(3, 6)
+(4, 5)
+(3, 7)
+(4, 9)
+(1, 0)
+(1, 3)
+(0, 9)
+(0, 10)
+The best next move would be (4, 9). 
+
+Updated board:
+. . . . . . . . . b w
+w . . w w . . . . w .
+. . . b . . . b . . .
+. . . . . . b w w . .
+. b w . . b w . . w w
+. . . b . b . . . . .
+. . . . b w w . . b .
+. . b . . . . . b . .
+. . . . . . w b . . .
+. . . . b . . . . . .
+(5, 5)
+(8, 6)
+(4, 6)
+(4, 5)
+(7, 2)
+(6, 5)
+(8, 8)
+The best next move is: (5, 5)
+(8, 8)
+(7, 2)
+(4, 5)
+(6, 5)
+(5, 3)
+(6, 9)
+(6, 4)
+(6, 6)
+(3, 6)
+(4, 6)
+(7, 8)
+(5, 9)
+(5, 5)
+(8, 8)
+(4, 5)
+(9, 4)
+(5, 9)
+(4, 6)
+(7, 8)
+(4, 9)
+(4, 10)
+The best next move would be: (3, 6)
+(1, 3)
+(2, 7)
+(4, 5)
+(5, 5)
+(6, 4)
+(5, 3)
+(4, 6)
+(0, 0)
+The best next move is: (1, 4)
+(8, 1)
+(1, 3)
+(3, 6)
+(6, 8)
+(5, 5)
+(6, 6)
+(5, 9)
+(4, 9)
+(4, 10)
+(4, 11)
+(3, 11)
+(3, 8)
+(10, 11)
+(3, 6)
+(3, 7)
+(1, 0)
+(4, 4)
+The best next move would be: (5, 5)
+(10, 3)
+(10, 0)
+The best next move would be (6,3) to potentially block the opponent from getting 5 in a row horizontally.
+The best next move would be: (4, 2)
+(6, 9)
+(8, 7)
+(5, 3)
+(7, 8)
+(5, 4)
+The best next move is: (6, 8)
+(7, 8)
+(8, 6)
+(9, 9)
+The best next move is: (0, 0)
+(6, 6)
+(7, 7)
+The best next move is (5, 5). 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . w . . . .
+. . . . . b . . . . .
+. . . . b . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(4, 6)
+(5, 7)
+The best next move would be (5, 5) to block the opponent from getting 5 in a row vertically. 
+
+Updated board:
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . w . . w . . .
+. . . . b b . w . . .
+. . . . b . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+(6, 4)
+(3, 2)
+(3, 4)
+(4, 2)
+(4, 2)
+(4, 2)
+(5, 2)
+(5,2)
+(5, 2)
+(6, 5)
+(6, 2)
+(6, 2)
+(6, 2)
+(5, 2)
+(5, 2)
+(4, 2)
+(4, 2)
+(4, 2)
+(4, 2)
+(4, 2)
+(5, 2)
+(5, 2)
+(4, 2)
+(6, 5)
+(5, 7)
+(5, 1)
+(3, 4)
+(6, 9)
+(5, 1)
+(5, 1)
+(5, 1)
+(4, 2)
+(4, 2)
+(4, 2)
+(4, 9)
+(5, 5)
+(4, 9)
+(5, 1)
+(5, 1)
+(6, 4)
+(2, 8)
+The best next move is (5,7).
+(5, 4)
+(4, 6)
+(5, 5)
+(5, 8)
+Based on the current board state, the best next move is: (5, 7)
+(7, 6)
+(7, 2)
+(5, 5)
+(3, 4)
+(3, 7)
+(5, 5) - To block the opponent from winning with 5 in a row horizontally.
+(5, 6)
+The best next move is: (6, 5)
+(6, 4)
+(5, 5)
+(5, 4)
+(5, 6)
+(5, 7)
+(6, 10)
+The best next move would be (5, 10) to place a white stone and potentially create a row of five white stones horizontally on the next turn.
+The best next move would be (5, 8) to form a vertical line of white pieces and potentially block the opponent from forming a line of black pieces.
+(6, 5)
+(8, 5)
+(5, 8)
+(5, 7)
+(0, 0)
+(0, 1)
+(3, 2)
+(3, 7)
+(5, 4)
+(5, 2)
+(5, 5)
+(5, 2)
+(6, 3)
+(4,6)
+(4, 4)
+The best next move is: (5, 4)
+(5, 5)
+(5, 6)
+(5, 7)
+(3, 5)
+(5, 8)
+(3, 4)
+(4, 4)
+(5, 3)
+The best next move is: (6, 5)
+(7, 6)
+(5, 6)
+(5, 7)
+(2, 5)
+(1, 6)
+(4, 6)
+(3, 5)
+(3, 7)
+(6, 4)
+(5, 5)
+(3, 4)
+(2, 8)
+(0, 0)
+(3, 8)
+(2, 9)
+(6, 9)
+(2, 5)
+(2, 5)
+(6, 5)
+(2, 5)
+(5, 4)
+(5, 3)
+(0, 1)
+(7, 6)
+(4, 6)
+(3, 8)
+(4, 5)
+The best next move is: (4, 6)
+(5, 6)
+(6, 5)
+(6, 4)
+(4, 6)
+(6, 0)
+(6, 9)
+(4, 5)
+(3, 7)
+(3, 4)
+(6, 3)
+(3, 5)
+(4, 4)
+(4, 6)
+(6, 1)
+(4, 0)
+(6, 5)
+(4, 1)
+(2, 6)
+The best next move is: (6, 5)
+(5, 8)
+(5, 6)
+(3, 5)
+(7, 6)
+(5, 7)
+(5, 5)
+(5, 4)
+(5, 3)
+(5, 2)
+(7, 6)
+(7, 2)
+The best next move is (5, 8). 
+
+Updated board:
+. . . . . b . . . . .
+. . . . . . b . b . .
+. . . . . b w . w b .
+. . . . w b . w b b .
+. . . . w w w . . . .
+. . w w b b w w w b w
+. . . w b b . b . b w
+. . w . . . b . . . .
+. . . . . b . . . . .
+. . . . . . . . . b .
+. . . . . . . . . . .
+(6, 9)
+(9, 9)
+(7, 6)
+(10, 0)
+(10, 5)
+The best next move is: (5, 8)
+(5, 7)
+(5, 6)
+(5, 6)
+(5, 5)
+(5, 4)
+(0, 0)
+(0, 5)
+(5, 3)
+(4, 6)
+(5, 7)
+(3, 5)
+(4, 5)
+(5, 9)

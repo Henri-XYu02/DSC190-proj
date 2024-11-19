@@ -183,8 +183,10 @@ if __name__ == '__main__':
         win_test()
     elif args.test == 3:
         # test llm against random player
-        llm_test()
+        llm_test(specify_rules=True)
     elif args.test == 4:
+        llm_test(specify_rules=False)
+    elif args.test == 5:
         vl_test()
     else:
         import pygame

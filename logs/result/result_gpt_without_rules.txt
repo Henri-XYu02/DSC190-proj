@@ -1,0 +1,132 @@
+AI won
+w b w . b w . w . b w
+w . b . . w b . b . b
+. b b . . b . . . w .
+. . . . b w . b w b b
+. . b b w b w b w w .
+. w w w b b w w b b .
+. w w w w w w w . . w
+. b b b w b w w b b b
+. . w b w . . b . w .
+. . w b . b w b . w .
+. . b . . w b . . b .
+
+Random player won
+w w w w . . b . . b w
+w b . b . . b . w . b
+. w . . . . . . w . .
+w w . . b . . . . . b
+w w . b w w . . w . .
+w w b . w b b w w . .
+. . b w b w b . w . b
+. . b b b b b b . . .
+w . . . . . . . w b .
+. . . . . . . . w w b
+. b . b . b . b . . b
+
+AI won
+w w . . . . . . . . .
+. . . b . . . . . . .
+b w . b w . b w . . .
+. b . . w w b . . . .
+. . . . w w w . w . .
+b . w . w b . w w . .
+. b . b w b b . . . .
+. w . b . b . . . . .
+b w . . w . . b w . .
+. b . . . . . . . . .
+. b . . b . . b . . .
+
+AI won
+. b w . w . . . b . .
+b . b b . . b . . b w
+. b . . b w b w . b .
+. . w . . b . w w . w
+. . . w w w w b w b .
+w b w w w b b w b w b
+. . . . w w w . . w .
+b . . w . . w w b . .
+. . . . . w . b w b w
+. . . . b b b . b w .
+. b . b . . b . b . .
+
+AI won
+. b b . . . . b w w .
+w . . . . . . w w . w
+. b . w b . . . w . b
+b b w . . . . . w . .
+. . b w w b w b b b .
+w b b w w b w w w b b
+. . b w b w w b w w .
+. b . . b w b . w . b
+. . . w w w b . b b w
+. . . b . w b b . . .
+b . w b w w w w b b b
+
+Random player won
+. . . . . w . . . . .
+. . . . . w . . . w .
+. . . . . w . w w w .
+. w . . . b . . . . .
+. . . b w b w b . . .
+. . w b w b w b w w .
+. . . . w w b b b b .
+. . b b . . . b b w .
+. . . b b . b b w . .
+b . . . . . . b . . .
+. . . . . . . . . . w
+
+AI won
+w . . . . . . w . . .
+. . . . . w . w . . .
+. . b b . . . b . . .
+. b . . b . w b w . .
+. . . . w w w . b b .
+. . b b b b w w w w .
+. . b . w w w . . . b
+w b . . w b w b . . .
+. . . b b . . b w w .
+. w . . . b . b . . .
+. . . . . . . . . . .
+
+AI won
+w b . . . b . . . b .
+. . b . . b . . . . .
+. b w . . . . w w . w
+. . w . b . . . . . b
+. . . b . . . b . w .
+. . . b . b w w w w w
+. . . . w b w b . . .
+. b . . . . b w . . .
+. . . . . . . . w . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+
+AI won
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . w .
+. . w . . . . b w b .
+. . . . . w b w w . .
+. . b . . b w w . w .
+. . . b b w b . . b .
+. . . . . . w . . . .
+. . . b . . b . w . .
+. . . b . . . . b . .
+. . . . . w . . . . .
+
+Random player won
+. w w . b w . . . . b
+b . . . . b . b . w b
+. . . . b . w w b . b
+w . . . . . b w w b b
+. . . . w b b w . w b
+. b w b w b w b w . .
+. . b . w w w w b b .
+w . . . . . . b . . .
+. . . . b . . . . . .
+. . . . . . . . . w w
+. . . . . . . . . . .
+
+GPT-3.5 win rate:0.7
+Average moves(GL): 47.5

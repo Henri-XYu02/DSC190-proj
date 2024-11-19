@@ -96,22 +96,28 @@ def win_test():
 MIN_WINS = 9
 NUM_PLAYS = 10
 
-def llm_test():
+def llm_test(specify_rules=True):
     simulator = Game()
     wins = 0
+    move_count = 0
+    if specify_rules:
+        string = "_with_rules"
+    else:
+        string = "_without_rules"
     for play_i in range(NUM_PLAYS):
         print("play {}/{}".format(play_i + 1, NUM_PLAYS))
+        with open(f"logs/match_gpt{string}.txt", "a") as f:
+            f.write(f"play {play_i + 1}/{NUM_PLAYS}\n")
+
         # black goes first
         simulator.reset(BLACK)
         ai_play = False
         
         while not simulator.game_over:
             print(f"board:\n{simulator.state()[1]}")
-            with open("test_states", "a") as f:
-                f.write(board_to_text(simulator.state()[1]) + "\n")
             if ai_play:
                 player, board = simulator.state()
-                r, c = ask_gpt_for_move(player, board, simulator.get_actions())
+                r, c = ask_gpt_for_move(player, board, simulator.get_actions(), specify_rules=specify_rules)
                 print("GPT-3.5 move:", r, c)
             else:
                 (r,c) = simulator.rand_move()
@@ -119,28 +125,37 @@ def llm_test():
 
             simulator.place(r, c)
             ai_play = not ai_play
+            move_count += 1
+            with open(f"logs/match_gpt{string}.txt", "a") as f:
+                f.write("Player: " + str(simulator.state()[0]) + "\n")
+                f.write(board_to_text(simulator.state()[1]) + "\n")
 
         if simulator.winner == WHITE:
             print("AI won.")
-            with open("result.txt", "a") as f:
+            with open(f"logs/result_gpt{string}.txt", "a") as f:
                 f.write("AI won\n")
                 f.write(board_to_text(simulator.state()[1]) + "\n")
             wins += 1
         else:
             print("Random player won.")
-            with open("result.txt", "a") as f:
+            with open(f"logs/result_gpt{string}.txt", "a") as f:
                 f.write("Random player won\n")
                 f.write(board_to_text(simulator.state()[1]) + "\n")
             
     print(f"GPT-3.5 win rate:{wins/NUM_PLAYS}")
-    with open("result.txt", "a") as f:
+    with open(f"logs/result_gpt{string}.txt", "a") as f:
         f.write(f"GPT-3.5 win rate:{wins/NUM_PLAYS}\n")
-        
+        f.write(f"Average moves(GL): {move_count/NUM_PLAYS}\n")
+
+    print(f"Average moves: {move_count/NUM_PLAYS}")
         
 def vl_test():
     simulator = Game()
     wins = 0
+    moves = 0
     for play_i in range(NUM_PLAYS):
+        with open("logs/match_vl.txt", "a") as f:
+            f.write(f"play {play_i + 1}/{NUM_PLAYS}\n")
         print("play {}/{}".format(play_i + 1, NUM_PLAYS))
         # black goes first
         simulator.reset(BLACK)
@@ -148,8 +163,7 @@ def vl_test():
         
         while not simulator.game_over:
             print(f"board:\n{simulator.state()[1]}")
-            with open("test_states_vl", "a") as f:
-                f.write(board_to_text(simulator.state()[1]) + "\n")
+
             if ai_play:
                 player, board = simulator.state()
                 draw_board(board)
@@ -158,27 +172,30 @@ def vl_test():
             else:
                 (r,c) = simulator.rand_move()
                 print("Random player move:", r, c)
-
             simulator.place(r, c)
             ai_play = not ai_play
+            moves += 1
+            
+            with open("logs/match_vl.txt", "a") as f:
+                f.write("Player: " + str(simulator.state()[0]) + "\n")
+                f.write(board_to_text(simulator.state()[1]) + "\n")
 
         if simulator.winner == WHITE:
             print("AI won.")
-            with open("result_vl.txt", "a") as f:
+            with open("logs/result_vl.txt", "a") as f:
                 f.write("VL won\n")
                 f.write(board_to_text(simulator.state()[1]) + "\n")
             wins += 1
         else:
             print("Random player won.")
-            with open("result_vl.txt", "a") as f:
+            with open("logs/result_vl.txt", "a") as f:
                 f.write("Random player won\n")
                 f.write(board_to_text(simulator.state()[1]) + "\n")
             
     print(f"QwenVL win rate:{wins/NUM_PLAYS}")
-    with open("result_vl.txt", "a") as f:
+    with open("logs/result_vl.txt", "a") as f:
         f.write(f"QwenVL win rate:{wins/NUM_PLAYS}\n")
-
-
+        f.write(f"Average moves(GE): {moves/NUM_PLAYS}\n")
 
 
 def adversarial_test():
